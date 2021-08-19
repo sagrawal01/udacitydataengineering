@@ -4,7 +4,7 @@ In this project, the goal is to implement a star schema based database for analy
 
 In order to execute the code in this workspace, please open the terminal and run 'python3 create_tables.py' then 'python3 etl.py' and it will process the files, create tables and load the data into the tables. You can also navigate to https://github.com/sagrawal01/udacitydataengineering and go to Project: Data Modeling with Postgres directory to execute the code. Please clone the repository and set up a virtual environment or docker container to execute the code within your local machine. 
 
-##There are five main files: 
+## There are five main files: 
 
 1. create_tables.py is used to create and connect to the Sparkify database, as well as create and drop tables detailed in sql_queries.py.
 2. sql_queries.py contains statements to create the five main tables in the database, drop the tables and select songs and artists based on song title, artist name and song duration (used to insert records into the songplays table). 
@@ -15,7 +15,7 @@ In order to execute the code in this workspace, please open the terminal and run
 4. etl.ipynb is utilized to test and write functions that are in the etl.py file.
 5. test.ipynb is utilized to validate that the tables were created and data has been inserted into those tables.
     
-##There are five tables that have been created in this database.
+## There are five tables that have been created in this database.
 
 1. songplays - facts table that contains information about the played songs.
 2. songs - dimensions table that contains the list of songs
