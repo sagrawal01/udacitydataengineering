@@ -1,10 +1,11 @@
 # Project Description: Data Modeling with Postgres
 
-In this project, the goal is to implement a star schema based database for analyzing Sparkify's data on songs and user activity.
+
+In this project, we are creating a Postgres database for a startup called Startify, which has collected data on songs and user activity in their music streaming app. We are pulling data from JSON files of user activity and songs to consolidate them for the analytics team. We have implented the database schema and ETL pipeline detailed below.
 
 ## There are five tables that have been created in this database.
 
-1. songplays - facts table that contains information about the played songs.
+1. songplays - facts table that contains information about the played songs
 2. songs - dimensions table that contains the list of songs
 3. users - dimensions table that contians the list of users
 4. artists - dimensions table that contains the artist information
