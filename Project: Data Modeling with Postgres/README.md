@@ -64,22 +64,16 @@ Project: Data Modeling with Postgres/
 ├── sql_queries.py                                <- script that contains the queries to create and drop tables 
 ├── test.ipynb                                    <- Jupyter notebook used to test table creation and data insertion
 
-demandsensing/          
-├── LICENSE              
-├── pyproject.toml 
-├── README.md 
-├── Dockerfile
-├── requirements.txt  
-├── setup.py            <- Required packages and setup to run code
-├── src/                <- Source code for this package
-│   ├──compare_com_sc/ <- module to combine APO data with commercial data and analyze
-│   │   ├──processdata.py
-│   │   ├──getdata.py
-│   │   ├──ml_training.py
-│   │   ├──output.py
-│   ├──config/
-│   │   ├──encrypted
-│   │   ├──key.txt
+├── dir1
+│   ├── file11.ext
+│   └── file12.ext
+├── dir2
+│   ├── file21.ext
+│   ├── file22.ext
+│   └── file23.ext
+├── dir3
+├── file_in_root.ext
+└── README.md
 
 ## How to Run the Project: 
 
