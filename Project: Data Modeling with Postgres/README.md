@@ -1,8 +1,74 @@
-# Project 1: Data Modeling with Postgres
+# Project Description: Data Modeling with Postgres
 
 In this project, the goal is to implement a star schema based database for analyzing Sparkify's data on songs and user activity.
 
-In order to execute the code in this workspace, please open the terminal and run 'python3 create_tables.py' then 'python3 etl.py' and it will process the files, create tables and load the data into the tables. You can also navigate to https://github.com/sagrawal01/udacitydataengineering and go to Project: Data Modeling with Postgres directory to execute the code. Please clone the repository and set up a virtual environment or docker container to execute the code within your local machine. 
+## There are five tables that have been created in this database.
+
+1. songplays - facts table that contains information about the played songs.
+2. songs - dimensions table that contains the list of songs
+3. users - dimensions table that contians the list of users
+4. artists - dimensions table that contains the artist information
+5. time - dimensions table that contains the timestamp broken down to an hourly level
+
+The data model is a star schema and the structures of the tables is as follows:
+
+**Songplays**
+
+| Column        | Data Type       
+| ------------- |:-------------:|
+| songplay_id   | SERIAL        |
+| start_time    | timestamp     | 
+| user_id       | int           |  
+| level         | varchar       |
+| song_id       | varchar       | 
+| artist_id     | varchar       |  
+| session_id    | int           |
+| location      | text          | 
+| user_agent    | text          |  
+
+**Users**
+
+| Column        | Data Type       
+| ------------- |:-------------:|
+| user_id       | int           | 
+| first_name    | VARCHAR       | 
+| last_name     | int           |  
+| gender        | varchar(1)    |
+| level         | varchar       |
+ 
+**Songs**
+
+| Column        | Data Type       
+| ------------- |:-------------:|
+| song_id       | varchar       | 
+| title         | text          | 
+| artist_id     | varchar       | 
+| year          | int           |
+| duration      | numeric       |
+
+**Artists**
+
+| Column        | Data Type       
+| ------------- |:-------------:|
+| artist_id     | varchar       |  
+| name          | text          | 
+| location      | text          | 
+| latitude      | decimal       |
+| longitude     | decimal       |
+
+**Time**
+
+| Column        | Data Type       
+| ------------- |:-------------:|
+| start_time    | timestamp     | 
+| hour          | int           | 
+| day           | int           | 
+| week          | int           |
+| month         | int           |
+| year          | int           |
+| weekday       | int           |
+
+![Image](data_model.png?raw=true)
 
 ## There are five main files: 
 
