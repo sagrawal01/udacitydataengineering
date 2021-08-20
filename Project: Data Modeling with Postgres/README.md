@@ -13,7 +13,7 @@ In this project, the goal is to implement a star schema based database for analy
 The data model is a star schema and the structures of the tables is as follows:
 
 <p>
-    <img src="data_model_postgres.png" width="220" height="240" />
+    <img src="data_model_postgres.png" width="400" height="400" />
 </p>
 
 ## There are five main files: 
