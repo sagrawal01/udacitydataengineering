@@ -38,36 +38,9 @@ The data model is a star schema and the structures of the tables is as follows:
 ## Project Structure:
 
 <p>
-    <img src="file structure.png" width="600" height="400" />
+    <img src="file structure.png" width="700" height="400" />
 </p>
 
-Project: Data Modeling with Postgres/          
-├── data/                                         <- contains JSON files for log and song data
-│   ├──log_data/                                  <- contains JSON files for logs of user activity
-│   │   ├──2018
-│   │   │   ├──11
-│   │   │   │   ├──2018-11-01-events.json         <- log files of user activity(one for each day)
-│   │   │   │   ├──...
-│   ├──song_data/                                 <- contains JSON files for song data
-│   │   ├──A
-│   │   │   ├──A
-│   │   │   │   │──A
-│   │   │   │   │   │──TRAAAAW128F429D538.json    <- JSON files for song metadata
-│   │   │   │   │──B
-│   │   │   │   │   │──...
-│   │   │   │   │──C
-│   │   │   │   │   │──...
-│   │   │   ├──B
-│   │   │   │   │──...
-│   │   │   ├──C
-│   │   │   │   │──...
-├── create_tables.py                              <- creates and drops the tables defined in the schema
-├── data_model.png                                <- data model for the Sparkify Postgres database
-├── etl.ipynb                                     <- Jupyter notebook for testing and writing functions for etl.py
-├── etl.py                                        <- runs the ETL processes to load song and log data into database
-├── README.md                                     <- explanation of project, code and schema
-├── sql_queries.py                                <- script that contains the queries to create and drop tables 
-├── test.ipynb                                    <- Jupyter notebook used to test table creation and data insertion
 
 ## How to Run the Project: 
 
