@@ -36,6 +36,11 @@ The data model is a star schema and the structures of the tables is as follows:
 5. test.ipynb is utilized to validate that the tables were created and data has been inserted into those tables.
 
 ## Project Structure:
+
+<p>
+    <img src="data_model_postgres.png" width="600" height="400" />
+</p>
+
 Project: Data Modeling with Postgres/          
 ├── data/                                         <- contains JSON files for log and song data
 │   ├──log_data/                                  <- contains JSON files for logs of user activity
@@ -63,20 +68,6 @@ Project: Data Modeling with Postgres/
 ├── README.md                                     <- explanation of project, code and schema
 ├── sql_queries.py                                <- script that contains the queries to create and drop tables 
 ├── test.ipynb                                    <- Jupyter notebook used to test table creation and data insertion
-
-.
-├── example_folder\
-│   ├── first_subfolder\ a documented folder
-│   │   ├── sub-sub1\
-│   │   │   └── file3.sh this is file 3
-│   │   ├── sub-sub2\
-│   │   │   └── file4.cpp this is file 4
-│   │   └── random_file.rdm a documented file
-│   ├── second_subfolder\ a documented folder with no documented files
-│   ├── a_text_file.txt a text file
-│   ├── my_javascript.js this is file 1
-│   └── test.py a python script
-└── README.md The main readme\
 
 ## How to Run the Project: 
 
