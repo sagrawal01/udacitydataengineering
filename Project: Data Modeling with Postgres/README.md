@@ -38,7 +38,7 @@ The data model is a star schema and the structures of the tables is as follows:
 ## Project Structure:
 
 <p>
-    <img src="data_model_postgres.png" width="600" height="400" />
+    <img src="file structure.png" width="600" height="400" />
 </p>
 
 Project: Data Modeling with Postgres/          
