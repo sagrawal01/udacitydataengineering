@@ -12,63 +12,9 @@ In this project, the goal is to implement a star schema based database for analy
 
 The data model is a star schema and the structures of the tables is as follows:
 
-**Songplays**
-
-| Column        | Data Type       
-| ------------- |:-------------:|
-| songplay_id   | SERIAL        |
-| start_time    | timestamp     | 
-| user_id       | int           |  
-| level         | varchar       |
-| song_id       | varchar       | 
-| artist_id     | varchar       |  
-| session_id    | int           |
-| location      | text          | 
-| user_agent    | text          |  
-
-**Users**
-
-| Column        | Data Type       
-| ------------- |:-------------:|
-| user_id       | int           | 
-| first_name    | VARCHAR       | 
-| last_name     | int           |  
-| gender        | varchar(1)    |
-| level         | varchar       |
- 
-**Songs**
-
-| Column        | Data Type       
-| ------------- |:-------------:|
-| song_id       | varchar       | 
-| title         | text          | 
-| artist_id     | varchar       | 
-| year          | int           |
-| duration      | numeric       |
-
-**Artists**
-
-| Column        | Data Type       
-| ------------- |:-------------:|
-| artist_id     | varchar       |  
-| name          | text          | 
-| location      | text          | 
-| latitude      | decimal       |
-| longitude     | decimal       |
-
-**Time**
-
-| Column        | Data Type       
-| ------------- |:-------------:|
-| start_time    | timestamp     | 
-| hour          | int           | 
-| day           | int           | 
-| week          | int           |
-| month         | int           |
-| year          | int           |
-| weekday       | int           |
-
-![Image](data_model.png?raw=true)
+<p>
+    <img src="data_model_postgres.png" width="220" height="240" />
+</p>
 
 ## There are five main files: 
 
