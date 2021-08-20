@@ -64,16 +64,19 @@ Project: Data Modeling with Postgres/
 ├── sql_queries.py                                <- script that contains the queries to create and drop tables 
 ├── test.ipynb                                    <- Jupyter notebook used to test table creation and data insertion
 
-├── dir1
-│   ├── file11.ext
-│   └── file12.ext
-├── dir2
-│   ├── file21.ext
-│   ├── file22.ext
-│   └── file23.ext
-├── dir3
-├── file_in_root.ext
-└── README.md
+.
+├── example_folder\
+│   ├── first_subfolder\ a documented folder
+│   │   ├── sub-sub1\
+│   │   │   └── file3.sh this is file 3
+│   │   ├── sub-sub2\
+│   │   │   └── file4.cpp this is file 4
+│   │   └── random_file.rdm a documented file
+│   ├── second_subfolder\ a documented folder with no documented files
+│   ├── a_text_file.txt a text file
+│   ├── my_javascript.js this is file 1
+│   └── test.py a python script
+└── README.md The main readme\
 
 ## How to Run the Project: 
 
