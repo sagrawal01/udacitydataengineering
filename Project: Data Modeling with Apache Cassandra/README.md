@@ -20,3 +20,7 @@ In this project, we are creating an ETL pipeline for a startup, Sparkify, that r
 <p>
     <img src="images/file_structure.png" width="700" height="200" />
 </p>
+
+## How to Run the Project: 
+
+In order to execute the code in this workspace, please open the terminal from the home diretory and run 'jupyter notebook' then select Project_1B_Project_Template.ipynb and run through the cells. You can also navigate to https://github.com/sagrawal01/udacitydataengineering and go to Project: Data Modeling with Apache Cassandra directory to execute the code. Please clone the repository and set up a virtual environment or docker container to execute the code within your local machine. You can use cassandra:latest public docker container and install python and jupyter notebook as well as cassandra-driver to run this code.
