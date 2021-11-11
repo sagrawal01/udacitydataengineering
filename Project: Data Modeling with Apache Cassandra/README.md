@@ -18,5 +18,5 @@ In this project, we are creating an ETL pipeline for a startup, Sparkify, that r
 ## Project Structure:
 
 <p>
-    <img src="images/file_structure.png" width="700" height="400" />
+    <img src="images/file_structure.png" width="700" height="200" />
 </p>
