@@ -14,3 +14,9 @@ In this project, we are creating an ETL pipeline for a startup, Sparkify, that r
 2. The Apache Cassandra keyspace song_data is created and the three tables listed above are created and loaded with data from the event_datafile_new.csv
 3. Queries are used to check that the data was inserted.
 4. The tables are dropped and the database connection is closed
+
+## Project Structure:
+
+<p>
+    <img src="images/file_structure.png" width="700" height="400" />
+</p>
